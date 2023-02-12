@@ -1,0 +1,116 @@
+#header_perso{
+    display: flex;
+    justify-content: space-between;
+    padding: 0.25em;
+    margin-right: 0;
+    margin-left: 0;
+    width: 90%;
+}
+
+
+#header_perso a{
+    width: 25%;
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+}
+
+#header_perso a:hover{
+    transform:scale(1.05);
+    opacity: 0.5;
+    
+}
+
+#intro_perso{
+    width: 90%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.background_perso{
+    width: 90%;
+    text-align: justify;
+    text-indent: 5%;
+}
+
+.card_others{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card_infos{
+    width: 20em;
+    text-align: justify;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+    margin: 1em;
+}
+
+#button_phone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nico{
+    background-color: black;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5em;
+    width: 20em;
+    
+    
+}
+
+#un, #deux1, #deux2, #trois1, #trois2, #quatre1, #quatre2, #cinq1, #cinq2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mes_choix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.choix{
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    margin: 1em;
+    width: 20em;
+}
+
+
+#clue{
+    color: black;
+    text-decoration: none;
+}
+
+.derniere_etape_murder{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.reponsepolice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
