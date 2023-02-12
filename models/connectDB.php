@@ -2,7 +2,7 @@
 function connectDB() {
     $host = 'localhost';
     $user = 'root';
-    $db = 'eva';
+    $db = 'murder_party';
     $pwd = '';
     try {
         $bdd = new PDO('mysql:host='.$host.';dbname='.$db.';charset=utf8', $user,$pwd);
